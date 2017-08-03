@@ -11,7 +11,8 @@
             "cwd": "${workspaceRoot}",
             "environment": [],
             "externalConsole": true,
-            "MIMode": "lldb"
+            "MIMode": "lldb",
+            "preLaunchTask": "compile"
         }
     ]
 }
