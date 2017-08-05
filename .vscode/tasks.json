@@ -4,7 +4,7 @@
         {
             "taskName": "compile",
             "command": "g++",
-            "args": ["-g","${file}","-o","${file}.out"],
+            "args": ["-g","${file}", "-std=c++14", "-o","${file}.out"],
             "problemMatcher": {
                 "owner": "cpp",
                 "fileLocation": ["relative", "${workspaceRoot}"],

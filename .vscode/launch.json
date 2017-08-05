@@ -2,17 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
-            "type": "cppdbg",
+            // Install LLDB Debugger first
+            "type": "lldb",
             "request": "launch",
+            "name": "lldb Launch",
             "program": "${file}.out",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "lldb",
-            "preLaunchTask": "compile"
+            "preLaunchTask": "compile",
+            "terminal": "integrated"
         }
     ]
 }
